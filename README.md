@@ -1,9 +1,13 @@
 #js-url.js
 
+##Overview
 js-url.js is a utility module which provide functions for operating with url. 
 It can be used both in the [node.js](http://nodejs.org) and browser.
 
-##Documentation
+##Example
+[Link]()
+
+##Methods
 
 * [urlParse](#urlParse)
 * [urlFormat](#urlFormat)
@@ -80,5 +84,13 @@ __Result:__
     query_object == "?query=string&query2=string2"
     query_string == newReference.search
     
-    
+##Install
+
+The source code is available for download from [GitHub](https://github.com/rranauro/js-url). 
+Besides that, you can also install using Node Package Manager [npm](https://npmjs.org):
+
+    npm install js-url
+
+##License
+
     
